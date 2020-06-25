@@ -39,7 +39,7 @@ p{
 }
 
 .btn:hover{
-    background-color: #eaeaea;
+    background-color: #95D2ba;
     color: #333;
 }
 
@@ -79,7 +79,7 @@ p{
 /*section a styling*/
 
 #section-a{
-    background: #eaeaea;
+    background: #fff;
     color: #333;
     padding-bottom: 2em;
 }
@@ -128,12 +128,15 @@ p{
 }
 
 #section-d .box:first-child{
-    background: lightblue;
+    background: #fdd982;
+    color: #333;
 
 }
 
 #section-d .box:nth-child(even){
-    background: pink ;
+    background:  #95D2ba ;
+    color: #333;
+
 
 }
 
