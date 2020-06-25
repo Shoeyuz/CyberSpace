@@ -1,8 +1,8 @@
 body{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #333;
-    color: #fff;
+    background-color: #4F4F51;
+    color: #d6d6d6;
     font-size: 1.1em;
     line-height: 1.5;
     text-align: center;
@@ -30,8 +30,8 @@ p{
 
 .btn{
     display: inline-block;
-    background: #333;
-    color: #fff;
+    background: #f2c4ce;
+    color: #2c2b30;
     text-decoration: none;
     padding: 1em 2em;
     border: 1px solid #666;
@@ -39,8 +39,10 @@ p{
 }
 
 .btn:hover{
-    background-color: #eaeaea;
-    color: #333;
+    color: #2c2b30;
+    background: #f58f7c;
+
+
 }
 
 
@@ -79,8 +81,8 @@ p{
 /*section a styling*/
 
 #section-a{
-    background: #eaeaea;
-    color: #333;
+    background: #d6d6d6;
+    color: #2c2b30;
     padding-bottom: 2em;
 }
 
@@ -95,12 +97,15 @@ p{
     list-style: none;
     margin: 0;
     padding: 0;
+
 }
 
 #section-b li{
     margin-bottom: 1em;
-    background: #fff;
-    color: #333;
+    background: #f2c4ce;
+    color: #2c2b30;
+
+    
 }
 
 .card-content{
@@ -112,8 +117,8 @@ p{
 /*section c*/
 
 #section-c{
-    background: #fff;
-    color: #333;
+    background: #d6d6d6;
+    color: #2c2b30;
     padding: 2em;
 }
 
@@ -123,25 +128,27 @@ p{
 
 #section-d .box{
     padding: 2em;
-    color: #fff;
+    color: #d6d6d6;
 
 }
 
 #section-d .box:first-child{
-    background: lightblue;
+    background: #f2c4ce;
+    color: #2c2b30;
 
 }
 
 #section-d .box:nth-child(even){
-    background: pink ;
+    background: #f2c4ce;
+    color: #2c2b30;
 
 }
 
 /* Footer */
 #main-footer{
     padding: 2em;
-    background: #000;
-    color: #fff;
+    background: #2c2b30;
+    color: #d6d6d6;
     text-align: center;
 }
 
