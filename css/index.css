@@ -158,7 +158,29 @@ p{
         grid-template-columns: 1fr repeat(2,minmax(auto, 25em)) 1fr;
     }
 
+    #section-a .content-text{
+        columns: 2;
+        column-gap: 2em;
+    }
+
+    #section-a .content-text p{
+        padding-top:0;
+    }
+
     .content-wrap, #section-b ul{
         grid-column: 2/4;
+    }
+
+    .box, #main-footer div{
+        grid-column: span 2;
+    }
+
+    #section-b ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #section-b li{
+        width: 31%;
     }
 }
