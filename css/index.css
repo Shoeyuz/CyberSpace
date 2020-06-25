@@ -159,8 +159,8 @@ p{
     }
 
     #section-a .content-text{
-        columns: 2;
-        column-gap: 2em;
+        columns: 1;
+        /*column-gap: 2em;*/
     }
 
     #section-a .content-text p{
@@ -182,5 +182,9 @@ p{
 
     #section-b li{
         width: 31%;
+    }
+
+    img{
+        height: 200px;
     }
 }
